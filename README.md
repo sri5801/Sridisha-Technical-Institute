@@ -1,4 +1,4 @@
-# Xenonstack-Task
+# Xenonstack-Project
 A College website built using Web Development technologies.
 ### *******Sridisha Technical Institute*******
 
