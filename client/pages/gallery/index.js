@@ -31,7 +31,7 @@ const Gallery = () => {
         <Carousel className="d-block h-50 w-100">
           {galleryData.map((x) => {
             return (
-              <Carousel.Item className="h-50">
+              <Carousel.Item key={x.id} className="h-50">
                 <img style={{ width: "100%" }} src={x.src} alt="" />
               </Carousel.Item>
             );

@@ -37,7 +37,7 @@ export default function Home() {
             <Carousel className="d-block h-100 w-100">
               {imagesSlide.map((x) => {
                 return (
-                  <Carousel.Item className="h-50">
+                  <Carousel.Item key={x.id} className="h-50">
                     <img style={{ width: "100%" }} src={x.src} alt="" />
                   </Carousel.Item>
                 );
