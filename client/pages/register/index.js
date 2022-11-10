@@ -31,17 +31,7 @@ const Register = () => {
   return (
     <Container className="my-3">
       <Form>
-      <Form.Group className="mb-3" controlId="formBasicText">
-          <Form.Label>Name</Form.Label>
-          <Form.Control
-            value={name}
-            onChange={(e) => {
-              setName(e.target.value);
-            }}
-            type="text"
-            placeholder="Enter Name"
-          />
-         </Form.Group>
+      
         
         <Form.Group className="mb-3" controlId="formBasicText">
           <Form.Label>Name</Form.Label>
