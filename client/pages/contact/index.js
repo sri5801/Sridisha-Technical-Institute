@@ -23,6 +23,7 @@ const Contact = () => {
           );
         const data = await submit;
         console.log(data);
+        router.push("/");
     }
    
 
