@@ -38,7 +38,7 @@ const Register = () => {
           <Form.Control
             value={name}
             onChange={(e) => {
-              setEmail(e.target.value);
+              setName(e.target.value);
             }}
             type="text"
             placeholder="Enter Name"
@@ -53,7 +53,7 @@ const Register = () => {
           <Form.Control
             value={email}
             onChange={(e) => {
-              setName(e.target.value);
+              setEmail(e.target.value);
             }}
             type="email"
             placeholder="Enter Email"
