@@ -9,15 +9,9 @@ import { loginSuccess } from "../../Redux/userSlice";
 import { useRouter } from "next/router";
 
 const Register = () => {
-<<<<<<< Updated upstream
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
   const [email,setEmail] = useState("");
-=======
-  const [name,setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
->>>>>>> Stashed changes
   const dispatch = useDispatch();
   const user = useSelector((state) => state.user);
   const router = useRouter();
@@ -49,7 +43,7 @@ const Register = () => {
           />
          </Form.Group>
         
-        <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Group className="mb-3" controlId="formBasicText">
           <Form.Label>Name</Form.Label>
           <Form.Control
             value={name}
@@ -64,7 +58,6 @@ const Register = () => {
           </Form.Text>
         </Form.Group>
 
-<<<<<<< Updated upstream
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email</Form.Label>
           <Form.Control
@@ -78,8 +71,6 @@ const Register = () => {
           
         </Form.Group>
 
-=======
->>>>>>> Stashed changes
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Password</Form.Label>
           <Form.Control
