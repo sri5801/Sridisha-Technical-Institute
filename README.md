@@ -5,7 +5,7 @@ A College website built using Web Development technologies.
 **ABOUT THE PROJECT:** 
 I have developed a simple college website consisting of the Home page including 'About us', Login and Logout credentials page, gallery feature consisting of a few images taken from Google images and Contact Us page consisting of a feedback form. 
 
-**PROJECT LINK:** https://xenon-stack-project.vercel.app/
+**PROJECT LINK:** https://xenon-stack-project-civkpgz2t-xenon-stack.vercel.app
 
 **BUILT USING:**
 1. [Bootstrap](https://getbootstrap.com/)
