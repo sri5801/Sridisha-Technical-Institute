@@ -1,6 +1,6 @@
 # Xenonstack-Project
 A College website built using Web Development technologies.
-### *******Sridisha Tech Institute*******
+### *******Sridisha Technical Institute*******
 
 **ABOUT THE PROJECT:** 
 I have developed a simple college website consisting of the Home page including 'About us', Login and Logout credentials page, gallery feature consisting of a few images taken from Google images and Contact Us page consisting of a feedback form. 
