@@ -38,7 +38,7 @@ const Register = () => {
             onChange={(e) => {
               setEmail(e.target.value);
             }}
-            type="text"
+            type="email"
             placeholder="Enter email"
           />
           <Form.Text className="text-muted">
