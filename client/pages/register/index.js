@@ -32,7 +32,7 @@ const Register = () => {
     <Container className="my-3">
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Name</Form.Label>
+          <Form.Label>Email</Form.Label>
           <Form.Control
             value={email}
             onChange={(e) => {
@@ -47,7 +47,7 @@ const Register = () => {
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
+          <Form.Label>Name</Form.Label>
           <Form.Control
             value={name}
             onChange={(e) => {
