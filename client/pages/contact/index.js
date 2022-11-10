@@ -15,7 +15,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         if(!email || !name || !feedback) return;
-        const submit = await axios.post("http://localhost:5000/addfeedback",{
+        const submit = await axios.post("https://xenonstack-backend-project.herokuapp.com/addfeedback",{
                 email,
                 name,
                 feedback

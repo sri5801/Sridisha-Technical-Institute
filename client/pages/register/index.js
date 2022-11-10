@@ -18,7 +18,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
      if (!email || !name || !password) return;
-    const submit = await axios.post("http://localhost:5000/signup/", {
+    const submit = await axios.post("https://xenonstack-backend-project.herokuapp.com/signup/", {
       email,
       name,
       password,
