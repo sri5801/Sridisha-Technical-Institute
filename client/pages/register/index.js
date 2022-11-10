@@ -9,18 +9,18 @@ import { loginSuccess } from "../../Redux/userSlice";
 import { useRouter } from "next/router";
 
 const Register = () => {
-  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
   const [password, setPassword] = useState("");
-  const [name,setName] = useState("");
+  const [email,setEmail] = useState("");
   const dispatch = useDispatch();
   const user = useSelector((state) => state.user);
   const router = useRouter();
   const handleSubmit = async (e) => {
     e.preventDefault();
-     if (!email || !name || !password) return;
+     if (!name || !email || !password) return;
     const submit = await axios.post("https://xenonstack-backend-project.herokuapp.com/signup/", {
-      email,
       name,
+      email,
       password,
     });
    
@@ -32,29 +32,29 @@ const Register = () => {
     <Container className="my-3">
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email</Form.Label>
-          <Form.Control
-            value={email}
-            onChange={(e) => {
-              setEmail(e.target.value);
-            }}
-            type="email"
-            placeholder="Enter email"
-          />
-          <Form.Text className="text-muted">
-            We will never share your email with anyone else.
-          </Form.Text>
-        </Form.Group>
-
-        <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Name</Form.Label>
           <Form.Control
             value={name}
             onChange={(e) => {
-              setName(e.target.value);
+              setEmail(e.target.value);
             }}
             type="text"
             placeholder="Enter Name"
+          />
+          <Form.Text className="text-muted">
+            We will never share your information with anyone else.
+          </Form.Text>
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Email</Form.Label>
+          <Form.Control
+            value={email}
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
+            type="email"
+            placeholder="Enter Email"
           />
           
         </Form.Group>
