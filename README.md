@@ -40,8 +40,9 @@ I have developed a simple college website consisting of the Home page including 
 ![i11](https://user-images.githubusercontent.com/65398849/200845210-f341efd8-d490-42d1-bc80-5403de3c70db.jpeg)
 
 5. After logging in and option to logout on the upper right hand corner:
-![Screenshot (3)](https://user-images.githubusercontent.com/65398849/201006873-b564f101-3ce0-4d3b-a331-fab2fa134aa0.png)
 ![Screenshot (2)](https://user-images.githubusercontent.com/65398849/201006887-1370a6ab-58a3-406e-a25c-0f2ef7656c0c.png)
+![Screenshot (3)](https://user-images.githubusercontent.com/65398849/201006873-b564f101-3ce0-4d3b-a331-fab2fa134aa0.png)
+
 
 
 6. Code for creating Gallery feature:
