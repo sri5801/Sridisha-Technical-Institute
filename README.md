@@ -5,7 +5,7 @@ A College website built using Web Development technologies.
 **ABOUT THE PROJECT:** 
 I have developed a simple college website consisting of the Home page including 'About us', Login and Logout credentials page, gallery feature consisting of a few images taken from Google images and Contact Us page consisting of a feedback form. 
 
-**PROJECT LINK:** https://xenon-stack-project.vercel.app/
+**PROJECT LINK:** https://xenon-stack-project-civkpgz2t-xenon-stack.vercel.app
 
 **BUILT USING:**
 1. [Bootstrap](https://getbootstrap.com/)
@@ -39,10 +39,16 @@ I have developed a simple college website consisting of the Home page including 
 4. Login page:
 ![i11](https://user-images.githubusercontent.com/65398849/200845210-f341efd8-d490-42d1-bc80-5403de3c70db.jpeg)
 
-5. Code for creating Gallery feature:
+5. After logging in and option to logout on the upper right hand corner:
+![Screenshot (2)](https://user-images.githubusercontent.com/65398849/201006887-1370a6ab-58a3-406e-a25c-0f2ef7656c0c.png)
+![Screenshot (3)](https://user-images.githubusercontent.com/65398849/201006873-b564f101-3ce0-4d3b-a331-fab2fa134aa0.png)
+
+
+
+6. Code for creating Gallery feature:
 ![i13](https://user-images.githubusercontent.com/65398849/200870143-b7251bae-f5c6-4b6f-960b-082f7ff927b2.jpeg)
 
-6. Feedback form in Contact us page:
+7. Feedback form in Contact us page:
 ![i10](https://user-images.githubusercontent.com/65398849/200845294-cf7ddbb4-ba6a-43b2-9e0a-67e0afccf4da.jpeg)
 
 
