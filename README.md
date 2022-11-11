@@ -10,12 +10,11 @@ I have developed a simple college website consisting of the Home page including 
 **BUILT USING:**
 1. [Bootstrap](https://getbootstrap.com/)
 2. [PHP](https://www.w3schools.com/php/DEFAULT.asp)
-3. [mySQL](https://www.mysql.com/)
-4. [MongoDB](https://www.mongodb.com/)
-5. [CSS](https://www.w3schools.com/css/)
-6. [HTML](https://www.w3schools.com/html/)
-7. [ReacjJs](https://reactjs.org/)
-8. [JavaScript](https://www.w3schools.com/js/)
+3. [MongoDB](https://www.mongodb.com/)
+4. [CSS](https://www.w3schools.com/css/)
+5. [HTML](https://www.w3schools.com/html/)
+6. [ReacjJs](https://reactjs.org/)
+7. [JavaScript](https://www.w3schools.com/js/)
 
 **SCREENSHOTS:** 1. Following are the screenshots for the Login Credentials and Backend development (Connection to database) using JavaScript, MongoDB and mySQL:
 ![img](https://user-images.githubusercontent.com/65398849/200797185-dc8db26d-034d-4859-9418-bcecf38a9265.jpeg)
@@ -59,10 +58,9 @@ E-mail: sridisha.padhy@gmail.com
 
 **ACKNOWLEDGEMENTS:**
 1. PHP
-2. mySQL
-3. ReactJs
-4. MongoDb
-5. JavaScript
-6. Bootstrap
-7. HTML
-8. CSS
+2. ReactJs
+3. MongoDb
+4. JavaScript
+5. Bootstrap
+6. HTML
+7. CSS
