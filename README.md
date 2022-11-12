@@ -16,7 +16,7 @@ I have developed a simple college website consisting of the Home page including 
 6. [ReacjJs](https://reactjs.org/)
 7. [JavaScript](https://www.w3schools.com/js/)
 
-**SCREENSHOTS:** 1. Following are the screenshots for the Login Credentials and Backend development (Connection to database) using JavaScript, MongoDB and mySQL:
+**SCREENSHOTS:** 1. Following are the screenshots for the Login Credentials and Backend development (Connection to database) using JavaScript and MongoDB:
 ![img](https://user-images.githubusercontent.com/65398849/200797185-dc8db26d-034d-4859-9418-bcecf38a9265.jpeg)
 
 ![i2](https://user-images.githubusercontent.com/65398849/200797211-50424c88-60cb-417a-b3a1-fe1e8675dccc.jpeg)
